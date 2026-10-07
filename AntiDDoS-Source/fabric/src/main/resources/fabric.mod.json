@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "antiddos",
+  "version": "2.0.0",
+  "name": "AntiDDoS",
+  "environment": "*",
+  "entrypoints": { "main": ["me.antiddos.fabric.AntiDDoSFabric"] },
+  "depends": { "fabricloader": ">=0.14.0", "minecraft": "*", "fabric-api": "*" }
+}

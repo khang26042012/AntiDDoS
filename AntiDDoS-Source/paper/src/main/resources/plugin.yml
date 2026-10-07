@@ -1,0 +1,12 @@
+name: AntiDDoS
+version: 2.0.0
+main: me.antiddos.AntiDDoSPlugin
+api-version: '1.16'
+commands:
+  antiddos:
+    description: AntiDDoS administration
+permissions:
+  antiddos.admin:
+    default: op
+  antiddos.bypass:
+    default: op
